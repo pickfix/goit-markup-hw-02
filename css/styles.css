@@ -1,12 +1,177 @@
+:root {
+    --body-text-color: #212121;
+    --primery-text-color: #757575;
+    --main-background-color: #FFFFFF;
+    --second-background-color: #F5F4FA;
+    --dark-background-color: #2F303A;
+    --akcent-text-color: #2196F3;
+    --stylistic-color: rgba(255, 255, 255, 0.6);
+}
+/* цвет основного текста черный #212121 */
+/* цвет вторичного текста серый  #757575 */
+/* цвет фона вторичный #F5F4FA */
+/* белый цвет фона #FFFFFF */
+/* цвет акцента синий #2196F3 */
+/* основгой цвет фона #E5E5E5 */
 
-    /* цвет основного текста черный #212121 */
-    /* цвет вторичного текста серый  #757575 */
-    /* цвет фона вторичный #F5F4FA */
-    /* белый цвет #FFFFFF */
-    /* цвет акцента синий #2196F3 */
-    /* основгой цвет фона #E5E5E5 */
-    .page{
+/* страница */
+.page {
 
-        background: #E5E5E5;
-        color: #757575 ;
-    }
+    color: var(--main-background-color);
+    color: var(--primery-text-color);
+}
+
+/* лого */
+.logo,
+.logo:focus {
+    color: #000000;
+    text-decoration-line: none;
+}
+
+.logo-text {
+    color: var(--akcent-text-color);
+}
+
+/* сайт навигация */
+.site-nav {
+    list-style: none;
+}
+
+.nav-link {
+    color: var(--body-text-color);
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--akcent-text-color);
+}
+
+/* контакты */
+.contact {
+    list-style: none;
+}
+
+.contact-link {
+    color: var(--primery-text-color);
+    text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--akcent-text-color);
+}
+
+/* герой */
+.hero {
+    background: var(--dark-background-color);
+}
+
+.hero-title {
+    color: var(--main-background-color);
+}
+
+.hero-button,
+.hero-button:focus {
+    background: var(--akcent-text-color);
+    color: var(--main-background-color);
+    border: none;
+}
+
+/* описание */
+.description-list {
+    list-style: none;
+}
+
+.description-title {
+    color: var(--body-text-color);
+}
+
+/* занятие */
+.lessons-title {
+    color: var(--body-text-color);
+}
+
+.lessons-list {
+    list-style: none;
+}
+
+/* команда */
+.team {
+    background: var(--second-background-color);
+}
+
+.team-title {
+    color: var(--body-text-color);
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-name {
+    color: var(--body-text-color);
+}
+
+/* футер */
+.footer {
+    background: var(--dark-background-color);
+}
+
+.logo-footer {
+    text-decoration-line: none;
+    color: var(--main-background-color);
+}
+
+.address-list {
+    list-style: none;
+}
+
+.address {
+    text-decoration-line: none;
+    color: var(--main-background-color);
+}
+
+.address:hover,
+.address:focus {
+    color: var(--akcent-text-color);
+}
+
+.contact-footer {
+    text-decoration-line: none;
+    color: var(--stylistic-color);
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+    color: var(--akcent-text-color);
+
+
+}
+
+/* портфолио */
+.button-list {
+    list-style: none;
+}
+
+.button-item button {
+    background: var(--second-background-color);
+    color: var(--body-text-color);
+    border: none;
+}
+
+.button-item:hover,
+.button-item:focus {
+    background: var(--akcent-text-color);
+    color: var(--main-background-color);
+    border: none;
+}
+
+/* галерея */
+.galery-list {
+    list-style: none;
+}
+
+.galery-title {
+    color: var(--body-text-color);
+}
