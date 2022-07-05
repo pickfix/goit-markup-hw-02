@@ -7,6 +7,7 @@
     --akcent-text-color: #2196F3;
     --stylistic-color: rgba(255, 255, 255, 0.6);
 }
+
 /* цвет основного текста черный #212121 */
 /* цвет вторичного текста серый  #757575 */
 /* цвет фона вторичный #F5F4FA */
@@ -19,6 +20,8 @@
 
     color: var(--main-background-color);
     color: var(--primery-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* лого */
@@ -26,10 +29,18 @@
 .logo:focus {
     color: #000000;
     text-decoration-line: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .logo-text {
     color: var(--akcent-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 /* сайт навигация */
@@ -40,6 +51,10 @@
 .nav-link {
     color: var(--body-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -55,6 +70,10 @@
 .contact-link {
     color: var(--primery-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -69,13 +88,25 @@
 
 .hero-title {
     color: var(--main-background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-.hero-button,
-.hero-button:focus {
+.hero-button {
     background: var(--akcent-text-color);
     color: var(--main-background-color);
-    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* описание */
@@ -85,11 +116,25 @@
 
 .description-title {
     color: var(--body-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.description-item {
+    font-size: 14px;
+    line-height: 1.7;
+
 }
 
 /* занятие */
 .lessons-title {
     color: var(--body-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
 }
 
 .lessons-list {
@@ -99,10 +144,15 @@
 /* команда */
 .team {
     background: var(--second-background-color);
+
 }
 
 .team-title {
     color: var(--body-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
 }
 
 .team-list {
@@ -113,6 +163,13 @@
     color: var(--body-text-color);
 }
 
+.team-position {
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2
+}
+
 /* футер */
 .footer {
     background: var(--dark-background-color);
@@ -121,6 +178,11 @@
 .logo-footer {
     text-decoration-line: none;
     color: var(--main-background-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .address-list {
@@ -130,6 +192,8 @@
 .address {
     text-decoration-line: none;
     color: var(--main-background-color);
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .address:hover,
@@ -140,6 +204,8 @@
 .contact-footer {
     text-decoration-line: none;
     color: var(--stylistic-color);
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .contact-footer:hover,
@@ -154,17 +220,23 @@
     list-style: none;
 }
 
-.button-item button {
+.button-item {
     background: var(--second-background-color);
     color: var(--body-text-color);
+    cursor: pointer;
     border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 .button-item:hover,
 .button-item:focus {
     background: var(--akcent-text-color);
     color: var(--main-background-color);
-    border: none;
 }
 
 /* галерея */
@@ -172,6 +244,16 @@
     list-style: none;
 }
 
+.galery-link {
+    text-decoration-line: none;
+    color: var(--primery-text-color);
+}
+
 .galery-title {
+    text-decoration-line: none;
     color: var(--body-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
