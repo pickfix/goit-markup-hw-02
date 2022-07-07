@@ -185,7 +185,7 @@
 .logo-footer {
     text-decoration-line: none;
     color: var(--main-background-color);
-    font-family: 'Raleway';
+    font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -200,9 +200,11 @@
 .address {
     text-decoration-line: none;
     color: var(--main-background-color);
+    font-family: 'Roboto';
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    cursor: default;
+
 }
 
 .address:hover,
@@ -212,12 +214,12 @@
 
 .contact-footer {
     text-decoration-line: none;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     color: var(--stylistic-color);
     font-size: 14px;
     line-height: 1.71;
-    cursor: default;
 }
 
 .contact-footer:hover,
